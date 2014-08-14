@@ -1,61 +1,21 @@
 <% content_for :title do %>My super sweet dashboard<% end %>
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="weather" data-view="Weather"></div>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="album_metadata" data-view="Text"></div>
     </li>
 
     <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="days_since_last_post" data-view="DaysSinceLastPost"></div>
+      <div data-id="photo_count" data-view="Number"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="bendyworks-blog" data-view="News" data-title="Bendyworks Blog"></div>
+    <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+      <div data-id="five_minutes" data-view="Graph"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-title="@bendyworks replies"></div>
-      <i class="icon-twitter icon-background"></i>
+    <li data-row="3" data-col="1" data-sizex="3" data-sizey="1">
+      <div data-id="fifteen_minutes" data-view="Graph"></div>
     </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="3">
-      <div data-id="sms_my_bus" data-view="SmsMyBus" data-title="Bus Arrivals" style="background-color:#47bbb3;"></div>
-    </li>
-
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="coderwall" data-view="Number" style="background-color:#2A76C6;"></div>
-    </li>
-
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="likes" data-view="Likes"></div>
-    </li>
-
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <i class="icon-trello icon-background"></i>
-      <div data-id="the-board" data-view="List" data-title="THE BOARD"></div>
-    </li>
-
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="github_repos" data-view="GithubRepos"><div>
-    </li>
-
-    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="travis_ci" data-view="Travis" data-title="Travis CI" data-unordered="true"></div>
-    </li>
-
-
-    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="github_status" data-view="GithubStatus" data-title="GitHub Status"></div>
-    </li>
-
-    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="heroku-prod" data-view="Heroku" data-title="Heroku Production"></div>
-    </li>
-
-    <%#<li data-row="1" data-col="2" data-sizex="1" data-sizey="1">%>
-      <%#<div data-id="bcycle_1879" data-view="Bcycle" style="background-color:#242876;" data-title="B-Cycle Station at"></div>%>
-    <%#</li>%>
-
 
   </ul>
 </div>
