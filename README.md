@@ -1,1 +1,1 @@
-Check out http://shopify.github.com/dashing for more information.
+A small dashboard to watch a Facebook album with the Facebook Graph API.Built on [Dashing](http://shopify.github.io/dashing/).
