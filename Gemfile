@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.1'
 
 gem 'dashing'
 
@@ -9,29 +9,17 @@ gem 'omniauth-google-apps'
 
 ### WIDGET GEMS ###
 
-## Twitter widget:
-gem 'twitter'
-
-## Github widget:
-gem 'octokit'
-
-## Travis-CI widget:
-gem "travis"
+## Watching Facebook albums:
+gem 'faraday'
 
 ## RSS feed widget:
 gem 'nokogiri'
 gem 'htmlentities'
 
-## Sms_my_bus (Madison Bus data API)
-gem 'sms_my_bus'
-
-## Trello widget
-gem 'ruby-trello'
-
-## Foursquare widget:
-gem 'foursquare2'
-
 ### development niceties ###
 gem 'dotenv'
-#gem 'pry'
-#gem 'pry-debugger'
+
+group :development do
+  gem 'pry'
+  gem 'pry-debugger'
+end
