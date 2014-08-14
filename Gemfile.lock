@@ -93,3 +93,4 @@ DEPENDENCIES
   nokogiri
   pry
   pry-debugger
+  thin
