@@ -39,8 +39,8 @@ def collect_by_minutes(photos, bucket_seconds)
       memo[presentable_time_since_epoch] = 1
     end
     memo
-  end.map do |timeframe, count|
-    { x: timeframe, y: count }
+  end.map do |time, count|
+    { x: time, y: count }
   end
 end
 
